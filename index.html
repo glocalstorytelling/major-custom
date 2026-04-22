@@ -166,15 +166,15 @@
       </div>
       <div class="input-group">
         <label class="input-label">이름</label>
-        <input type="text" id="inputName" placeholder="이름을 입력하세요">
+        <input type="text" id="inputName" placeholder="이름을 입력하세요 (선택)">
       </div>
       <div class="input-group">
         <label class="input-label">학번</label>
-        <input type="text" id="inputStudentId" placeholder="학번을 입력하세요 (9자리)" maxlength="9" oninput="this.value=this.value.replace(/[^0-9]/g,'')">
+        <input type="text" id="inputStudentId" placeholder="학번을 입력하세요 (선택)" maxlength="9" oninput="this.value=this.value.replace(/[^0-9]/g,'')">
       </div>
       <div class="input-group">
         <label class="input-label">소속학과</label>
-        <input type="text" id="inputDept" placeholder="소속학과를 입력하세요">
+        <input type="text" id="inputDept" placeholder="소속학과를 입력하세요 (선택)">
       </div>
       <p class="warning" id="infoWarning"></p>
       <button id="submitBtn" class="btn" onclick="submitAndShowResult()" style="background:linear-gradient(135deg,#1e3a6e,#2d5a9e);box-shadow:0 6px 24px rgba(30,58,110,0.28);">결과 확인하기 🎓</button>
