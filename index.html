@@ -293,8 +293,6 @@ function submitAndShowResult(){
   const studentId=document.getElementById('inputStudentId').value.trim();
   const dept=document.getElementById('inputDept').value.trim();
   const warn=document.getElementById('infoWarning');
-  if(!name||!studentId||!dept){warn.textContent='⚠️ 모든 항목을 입력해주세요!';warn.classList.add('show');return;}
-  if(studentId.length!==9){warn.textContent='⚠️ 학번은 9자리 숫자로 입력해주세요!';warn.classList.add('show');return;}
   btn.disabled=true;
   warn.classList.remove('show');
   document.getElementById('infoSection').classList.remove('show');
